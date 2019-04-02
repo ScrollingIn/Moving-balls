@@ -84,8 +84,8 @@ function init() {
         var radius = Math.random() * 9 + 1;
         var x = Math.random() * (innerWidth - radius * 2) + radius;
         var y = Math.random() * (innerWidth - radius * 2) + radius;
-        var dx = (Math.random() - 0.5);
-        var dy = (Math.random() - 0.5);
+        var dx = (Math.random() - 0.5) * 0.5;
+        var dy = (Math.random() - 0.5) * 0.5;
         circleArray.push(new Circle(x, y, dx, dy, radius,));    
     }
 }
